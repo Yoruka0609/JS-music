@@ -1,7 +1,7 @@
-const { Client, Message, SlashCommandBuilder, Interaction, Partials, EmbedBuilder  } = require (discord.js);
-const { joinVoiceChannel, createAudioPlayer, createAudioResource, AudioPlayStatus, VoiceConnectionStatus }= require ('@discordjs/voice')
+const { Client, Message, SlashCommandBuilder, Interaction, Partials, EmbedBuilder ,Collection } = require ("discord.js");
+const { joinVoiceChannel, createAudioPlayer, createAudioResource, AudioPlayStatus, VoiceConnectionStatus }= require ('discord.js')
 const { token } = require("./config.json");
-const ytdl = require('ytdl-core');
+//const ytdl = require('ytdl-core');
 const ytsr = require('ytsr');
 const { readdirSync } = require('fs');
 const Path = require("path");
